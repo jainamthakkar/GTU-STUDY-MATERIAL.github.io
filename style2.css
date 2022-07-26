@@ -1,0 +1,169 @@
+.container {
+      width: 100vw;
+      margin: auto;
+      /* border: 3px solid black; */
+      justify-content: space-between;
+  }
+
+
+.drop-down02 .sub-menu02
+{
+	position: absolute !important;
+	left: 100%;
+	top: 0;
+}
+
+.drop-down02 .dropdown-toggle{
+	padding:.25rem 1.1rem !important;
+}
+
+@media screen and (max-width :767px)
+{
+	.drop-down02 .sub-menu02
+	{
+		position:static !important;
+	}
+}
+
+.drop-down02{
+	position:relative;
+}
+.dropdown-menu{
+    text-align: left;
+    list-style-position: inside;
+}
+
+
+/* CSS */
+.button-85 {
+	padding: 0.6em 2em;
+	border: none;
+	outline: none;
+	color: rgb(255, 255, 255);
+	background: #111;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+	border-radius: 10px;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+  }
+  
+
+  /* CSS  downloading button*/
+
+.button-27 {
+	appearance: none;
+	background-color: #000000;
+	border: 2px solid #1A1A1A;
+	border-radius: 15px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0;
+	min-height: 60px;
+	min-width: 0;
+	outline: none;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 100ms cubic-bezier(.23, 1, 0.32, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: 32%;
+	height: 20%;
+	will-change: transform;
+  }
+  
+  .button-27:disabled {
+	pointer-events:none;
+  }
+  
+  .button-27:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+	transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+	box-shadow: none;
+	transform: translateY(0);
+  } 
+
+
+  
+  #btn-back-to-top {
+	position: fixed;
+	bottom: 45px;
+	right: 45px;
+	display:none;
+  } 
+
+
+  /* to unstyled text from default in <a> */
+  .link-unstyled {
+	color: inherit;
+	text-decoration: inherit;
+  }
+
+
+  /* wh url style */
+
+  @media screen and (min-width: 500px) {  
+	wh-url {  
+		  display: none  
+	  }  
+  }  
+	/* css code to hide the WhatsApp sharing link on the large screen   */
+	@media screen and (min-width: 1000px) {  
+		wh-url {  
+			display: none  
+		}  
+	}  
+
+
+/* horizontal line  */
+
+
+body { background: #FCF; }
+        
+        .divider {                /* minor cosmetics */
+            display: table; 
+            font-size: 24px; 
+            text-align: center; 
+            width: 75%;             /* divider width */
+            margin: 40px auto;          /* spacing above/below */
+        }
+        .divider span { display: table-cell; position: relative; }
+        .divider span:first-child, .divider span:last-child {
+            width: 50%;
+            top: 13px;              /* adjust vertical align */
+            -moz-background-size: 100% 2px;   /* line width */
+            background-size: 100% 2px;      /* line width */
+            background-position: 0 0, 0 100%;
+            background-repeat: no-repeat;
+        }
+        .divider span:first-child {       /* color changes in here */
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+            background-image: -webkit-linear-gradient(180deg, transparent, #000);
+            background-image: -moz-linear-gradient(180deg, transparent, #000);
+            background-image: -o-linear-gradient(180deg, transparent, #000);
+            background-image: linear-gradient(90deg, transparent, #000);
+        }
+        .divider span:nth-child(2) {
+            color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+        }
+        .divider span:last-child {        /* color changes in here */
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+            background-image: -webkit-linear-gradient(180deg, #000, transparent);
+            background-image: -moz-linear-gradient(180deg, #000, transparent);
+            background-image: -o-linear-gradient(180deg, #000, transparent);
+            background-image: linear-gradient(90deg, #000, transparent);
+        }
+  
